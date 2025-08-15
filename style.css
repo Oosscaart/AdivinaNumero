@@ -109,3 +109,11 @@ button {
     font-size: 32px;
     font-weight: 400;
 }
+
+#contador-intentos {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    /* Puedes quitar font-weight:bold si quieres igualarlo exactamente */
+}
