@@ -17,23 +17,20 @@
     <div class="container">
         <div class="container__contenido">
             <div class="container__informaciones">
-                <div id="contador-intentos" style="font-weight:bold; margin-bottom:10px;">Intentos: 0</div>
                 <div class="container__texto">
                     <h1></h1>
                     <p class="texto__parrafo"></p>
                 </div>
                 <input type="number" min="1" max="10" class="container__input">
                 <div class="chute container__botones">
-                    <button class="container__boton" id="btnIntentar">Intentar</button>
-                    <button class="container__boton" id="reiniciar" disabled>Nuevo juego</button>
+                    <button onclick=" intentoDeUsuario();" class="container__boton">Intentar</button>
+                    <button on click="reiniciar" class="container__boton" id="reiniciar" disabled>Nuevo juego</button>
                 </div>
             </div>
             <img src="./img/ia.png" alt="Una persona mirando a la izquierda" class="container__imagen-persona" />
         </div>
     </div>
 
-    <audio id="audio-risas" src="https://cdn.pixabay.com/audio/2022/03/15/audio_115b9bfae2.mp3"></audio>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <script src="app.js" defer></script>
 </body>
 
